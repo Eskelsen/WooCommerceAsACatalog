@@ -51,6 +51,13 @@ echo '<style>
 .woocommerce-mini-cart {
 	display: none !important;
 }
+#header_cart,
+.top_bar_right_wrapper a[href*="carrinho"],
+.top_bar_right_wrapper a[href*="cart"],
+.icon-bag-fine,
+#header-cart-count {
+	display: none !important;
+}
 </style>';
 });
 

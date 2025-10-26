@@ -115,7 +115,8 @@ class WCCatalog {
         $link_externo = get_post_meta($product->get_id(), 'link_externo', true);
 
         if ($link_externo) {
-            echo '<a href="' . esc_url($link_externo) . '" class="button alt" target="_blank" rel="noopener noreferrer">Comprar na loja</a>';
+            echo '<a href="' . esc_url($link_externo) . '" class="button alt" target="_blank" rel="noopener noreferrer">Comprar (Brasil)</a>';
+            echo ' <a href="' . esc_url($link_externo) . '&pt=1" class="button alt" target="_blank" rel="noopener noreferrer">Comprar (Portugal)</a>';
         }
     }
 
