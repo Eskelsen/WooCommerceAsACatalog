@@ -18,7 +18,7 @@ class WCCatalog {
 
         # Ocultar preços e checkout conforme configuração
         add_action('wp', [$this, 'maybe_hide_prices']);
-        add_action('template_redirect', [$this, 'maybe_disable_cart_checkout']);
+        // add_action('template_redirect', [$this, 'maybe_disable_cart_checkout']);
     }
 
     /**
